@@ -1,0 +1,302 @@
+* {
+    margin-top: 0%;
+    margin-bottom: 1%;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+body {
+    background-color: rgb(52, 50, 50);
+}
+
+header {
+    background-color: black;
+    height: auto;
+    width: 100%;
+}
+
+.navbar {
+    position: relative;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    width: 100%;
+}
+
+  /* styles normal buttons */
+  .navbtn {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 0%;
+    overflow: hidden;
+  }
+
+  .navbtn:hover, .navbtn:focus {
+      background-color: gold;
+      color: black;
+      border-radius: 10%;
+      transition: 1000ms;
+  }
+
+  a {
+    overflow: hidden;
+    text-decoration: none;
+  }
+
+  .titlebox {
+    text-align: center;
+    font-size: 175%;
+    color: white;
+    margin-top: 5%;
+    margin-left: 30%;
+    width: 40%;
+    text-shadow: 3px 3px 8px darkgrey;
+  }
+
+  .Audia4 {
+    position: relative;
+    width: auto;
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 7%;
+    border-style: solid;
+    border-color: white;
+    border-width: 0.1%;
+    border-radius: 10px;
+    background-color: black;
+    text-align: left;
+    color: gold;
+    box-shadow: 5px 5px 10px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .img {
+      width: 35%;
+      height: 75%;
+      margin-left: 1%;
+      margin-right: 1%;
+      margin-top: 1%;
+      border-style: solid;
+      border-width: 0.1%;
+      border-color: white;
+      flex-basis: 40%;
+  }
+
+  .text {
+      position: relative;
+      margin-left: -2%;
+      margin-right: 1%;
+      font-size: 150%;
+  }
+
+  .AudiA6 {
+    position: relative;
+    width: auto;
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 7%;
+    border-style: solid;
+    border-color: white;
+    border-width: 0.1%;
+    border-radius: 10px;
+    background-color: black;
+    text-align: left;
+    color: gold;
+    box-shadow: 5px 5px 10px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .title {
+    margin-top: 0%;
+    margin-bottom: 5%;
+    margin-left: -2%;
+    color: gold;
+    text-decoration: underline;
+    font-size: 250%;
+  }
+
+  .AudiA5 {
+    position: relative;
+    width: auto;
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 7%;
+    border-style: solid;
+    border-color: white;
+    border-width: 0.1%;
+    border-radius: 10px;
+    background-color: black;
+    text-align: left;
+    color: gold;
+    box-shadow: 5px 5px 10px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .AudiAllRoad {
+    position: relative;
+    width: auto;
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 7%;
+    border-style: solid;
+    border-color: white;
+    border-width: 0.1%;
+    border-radius: 10px;
+    background-color: black;
+    text-align: left;
+    color: gold;
+    box-shadow: 5px 5px 10px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Quattro {
+    position: relative;
+    width: auto;
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 7%;
+    border-style: solid;
+    border-color: white;
+    border-width: 0.1%;
+    border-radius: 10px;
+    background-color: black;
+    text-align: left;
+    color: gold;
+    box-shadow: 5px 5px 10px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .AudiA3 {
+    position: relative;
+    width: auto;
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 7%;
+    border-style: solid;
+    border-color: white;
+    border-width: 0.1%;
+    border-radius: 10px;
+    background-color: black;
+    text-align: left;
+    color: gold;
+    box-shadow: 5px 5px 10px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .AudiQ5 {
+    position: relative;
+    width: auto;
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 7%;
+    border-style: solid;
+    border-color: white;
+    border-width: 0.1%;
+    border-radius: 10px;
+    background-color: black;
+    text-align: left;
+    color: gold;
+    box-shadow: 5px 5px 10px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .AudiQ7 {
+    position: relative;
+    width: auto;
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 7%;
+    border-style: solid;
+    border-color: white;
+    border-width: 0.1%;
+    border-radius: 10px;
+    background-color: black;
+    text-align: left;
+    color: gold;
+    box-shadow: 5px 5px 10px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .AudiRS6 {
+    position: relative;
+    width: auto;
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 7%;
+    border-style: solid;
+    border-color: white;
+    border-width: 0.1%;
+    border-radius: 10px;
+    background-color: black;
+    text-align: left;
+    color: gold;
+    box-shadow: 5px 5px 10px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .AudiTT {
+    position: relative;
+    width: auto;
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 7%;
+    border-style: solid;
+    border-color: white;
+    border-width: 0.1%;
+    border-radius: 10px;
+    background-color: black;
+    text-align: left;
+    color: gold;
+    box-shadow: 5px 5px 10px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  ::placeholder {
+    color: gray;
+    opacity: 0.7; 
+  }
+
+  #form {
+      position: relative;
+      float: right;
+      margin-top: 1%;
+      margin-right: 5%;
+  }
+
+  svg {
+      overflow: none;
+      opacity: 0%;
+  }

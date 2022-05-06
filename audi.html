@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Website</title>
+        <link rel="stylesheet" href="audi.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="baby.png">
+    </head>
+    <header>
+        <div class="navbar">
+            <ul>
+                <a href="WebDesign.html">
+                    <button class="navbtn" id="home">Home</button>
+                </a>
+                <a href="audi.html">
+                    <button id="audi" class="navbtn">Audi</button>
+                </a>
+                <a href="bmw.html">
+                    <button class="navbtn" id="bmw">BMW</button>
+                </a>
+                <a href="chrysler.html">
+                    <button class="navbtn" id="chrysler">Chrysler</button>
+                </a>
+                <a href="dodge.html">
+                    <button class="navbtn" id="dodge">Dodge</button>
+                </a>
+                <a href="ford.html">
+                    <button class="navbtn" id="ford">Ford</button>
+                </a>
+                <a href="honda.html">
+                    <button class="navbtn" id="honda">Honda</button>
+                </a>
+                <a href="hyundai.html">
+                    <button class="navbtn" id="hyundai">Hyundai</button>
+                </a>
+                <a href="jaguar.html">
+                    <button class="navbtn" id="jaguar">Jaguar</button>
+                </a>
+                <form role="search" id="form">
+                    <input type="search" id="query" name="q" placeholder="Search Google..." aria-label="Search through site content">
+                      <svg viewBox="0 0 1024 1024"><path class="path1" d="M848.471 928l-263.059-263.059c-48.941 36.706-110.118 55.059-177.412 55.059-171.294 0-312-140.706-312-312s140.706-312 312-312c171.294 0 312 140.706 312 312 0 67.294-24.471 128.471-55.059 177.412l263.059 263.059-79.529 79.529zM189.623 408.078c0 121.364 97.091 218.455 218.455 218.455s218.455-97.091 218.455-218.455c0-121.364-103.159-218.455-218.455-218.455-121.364 0-218.455 97.091-218.455 218.455z"></path></svg>
+                  </form>
+                  <script>
+                    const f = document.getElementById('form');
+                    const q = document.getElementById('query');
+                    const google = 'https://www.google.com/search?q=';
+                    const site = '';
+              
+                    function submitted(event) {
+                      event.preventDefault();
+                      const url = google + site + '+' + q.value;
+                      const win = window.open(url, '_blank');
+                      win.focus();
+                    }
+              
+                    f.addEventListener('submit', submitted);
+                  </script>
+                <a href="snke.html">
+                    <button class="hideme" id="hideme"></button>
+                        <style>
+                            .hideme {
+                                float:right;
+                                position: right;
+                                text-align: right;
+                            }
+                        </style>
+                </a>
+            </ul>
+        </div>
+    </header>
+    <body>
+        <script src="WebDesign.js"></script>
+        <div class="titlebox">
+            <h1>Top 10 Audi's!</h1>
+        </div>
+        <div class="Audia4">
+            <img class="img" src="https://static1.hotcarsimages.com/wordpress/wp-content/uploads/2021/04/2012-Audi-A4jd-Cropped.jpg?q=50&fit=crop&w=750&dpr=1.5">
+            <ul>
+                <h1 class="title">2012-2013 Audi A4</h1>
+                <p class="text">Arguably the most well-known model, the A4 has seen an increase in reliability since the 2017 generation update. Models from before 2017 are rated quite poorly. The Audi A4 is a mid-sized sedan and serves as a practical commuter. The most reliable years are, without a doubt, the 2012-2013 models According to U.S. News the Audi A4 was the #1 small sedan for 2012, free from some of the mechanical issues such as excessive oil usage and engine failures.</p>
+                </ul>
+        </div>
+        <div class="AudiA6">
+            <ul>
+                <h1 class="title">2010 Audi A6</h1>
+                <p class="text">While a newer model of the Audi A6 has respectable reliability, the 2010 model is the most reliable according to U.S. News. This mid-size luxury sedan can be had at a deal, averaging $13,000.The 2010 model of Audi's A6 features a standard turbocharged V6 on AWD models. This type of fun in a reliable package should cost more, luckily being one of Audi's most reliable vehicles, more time can be spent on the road and not the shop!</p>
+            </ul>
+            <img class="img" src="https://static1.hotcarsimages.com/wordpress/wp-content/uploads/2021/03/2010-Audi-A6-4.2-Quattro.jpg?q=50&fit=crop&w=750&dpr=1.5">
+        </div>
+        <div class="AudiA5">
+            <img class="img" src="https://static1.hotcarsimages.com/wordpress/wp-content/uploads/2021/04/2018-audi-a5-media.audiusa.com-Cropped.jpg?q=50&fit=crop&w=750&dpr=1.5">
+            <ul>
+                <h1 class="title">2018-2019 Audi A5</h1>
+                <p class="text">Based on the A4, the Audi A5 spices the platform up with features like coupe styling, convertible options, and standard AWD. Car and driver gave the Audi A5 a steller reliability rating for the 2018 model year.The 2018 and 2019 model years offer the most substantial reliability ratings, but most model years will offer decent reliability compared to other Audi's. Further, the A5's 252hp 4-cylinder offers a zippy ride in a luxury package.</p>
+            </ul>
+        </div>
+        <div class="AudiAllRoad">
+            <ul>
+                <h1 class="title"> 2019 Audi All Road</h1>
+                <p class="text">Also, based on the Audi A4, the Audi Allroad is a wagon crossover version of the popular A4 platform. The Audi Allroad competes with the likes of the Subaru Outback.The Audi Allroad has decent reliability ratings, but the 2019 model is the most reliable, even earning the #1 spot in U.S News' Wagon category. In addition to reliability, the 2019 Allroad features an upgraded interior and a smooth ride.</p>
+            </ul>
+            <img class="img" src="https://static1.hotcarsimages.com/wordpress/wp-content/uploads/2020/03/2.-2019-Audi-Allroad.jpg?q=50&fit=crop&w=750&dpr=1.5">
+        </div>
+        <div class="Quattro">
+            <img class="img" src="https://static1.hotcarsimages.com/wordpress/wp-content/uploads/2021/10/1983-Audi-Quattro-Via-Pinterest-1.jpg?q=50&fit=crop&w=750&dpr=1.5">
+            <ul>
+                <h1 class="title">1983 Audi Quattro</h1>
+                <p class="text">In 1980 Audi introduced the Quattro. Initially a rally car, the Quattro made the jump to consumer purchase, immediately to high praise. With AWD and great styling, the Quattro was understandably famous.Properly maintained, the 1983 Audi Quattro can cover tons of miles before significant repairs. Despite the reliability, parts are difficult to come by, and the cost of essential maintenance can be high. Nevertheless, it's an Audi, and the Quattro is a classic!</p>
+            </ul>
+        </div>
+        <div class="AudiA3">
+            <img class="img" src="https://static1.hotcarsimages.com/wordpress/wp-content/uploads/2018/06/2009-Audi-A3-via-pinterest.co_.uk_.jpg?q=50&fit=crop&w=750&dpr=1.5">
+            <ul>
+                <h1 class="title">2009 A3</h1>
+                <p class="text">The entry-level Audi hasn't been reliable in years, but finding an A3 could be a bargain. Despite a standout entry for 2018, the best A3 goes back to 2009! U.S News gave the 2009 outstanding reliability ratings!It won't be up to date, but it is Audi, and it is reliable. In the A3's case, it will be a pretty decent bargain too. Being a nifty little hatch has its benefits too. This turbocharged 4-cylinder is decent on the gas mileage making the 2009 Audi A3 an excellent choice for upscale and practical!</p>
+            </ul>
+        </div>
+        <div class="AudiQ5">
+            <ul>
+                <h1 class="title">2019 Audi Q5</h1>
+                <p class="text">The Audi Q5 is Audi's compact luxury SUV, built to fit five comfortably and maintains a shred of off-road humility. The Audi Q5 has a spotty reputation with reliability, but the odd years seem to have the best results.For the most reliable, that title goes to the 2019 Audi Q5 according to Cars.com. The Audi Q5 just went through an upgrade in 2018, so the 2019 features upgraded interior styling and increased performance capabilities!</p>
+            </ul>
+            <img class="img" src="https://static1.hotcarsimages.com/wordpress/wp-content/uploads/2020/07/373135_2019_Audi_Q5.jpg?q=50&fit=crop&w=750&dpr=1.5">
+        </div>
+        <div class="AudiQ7">
+            <img class="img" src="https://static1.hotcarsimages.com/wordpress/wp-content/uploads/2020/10/2021-Audi-Q7-prestige.jpg?q=50&fit=crop&w=750&dpr=1.5">
+            <ul>
+                <h1 class="title">2020 Audi Q7</h1>
+                <p class="text">Offsetting with the Q5, the Audi Q7 full-size luxury SUV pulls out the best reliability in even years, with the 2020 model making a standout appearance. Cars.com gave the 2020 Audi Q7 top marks for reliability.Being quite luxurious inside, the Audi Q7 puts comfort at the forefront of the driver experience. Featuring three rows of seating and an optional turbocharged V6, the Q7 provides style over speed, and with the 2020 model, that style will last longer than other Audi models!</p>
+            </ul>
+        </div>
+        <div class="AudiRS6">
+            <ul>
+                <h1 class="title">2018 RS6</h1>
+                <p class="text">The performance version of the A6, the Audi RS6, has seen more substantial reliability ratings than the A6 platform it's based upon . It looks like Audi focused more on the performance version than the standard-issue A6.While overall, the RS6 isn't reliable year after year, the RS6 from 2018 sees the best ratings according to U.S News. With more power under the hood and an upscale interior, the 2018 Audi RS6 will be providing years of fun on the road while the A6 cousins sit in the shop!</p>
+            </ul>
+            <img class="img" src="https://static1.hotcarsimages.com/wordpress/wp-content/uploads/2018/11/Audi-RS6-via-motor1.com_.jpg?q=50&fit=crop&w=750&dpr=1.5">
+        </div>
+        <div class="AudiTT">
+            <img class="img" src="https://static1.hotcarsimages.com/wordpress/wp-content/uploads/2020/08/2019-Audi-TT-Motor1.jpg?q=50&fit=crop&w=750&dpr=1.5">
+            <ul>
+                <h1 class="title">2019 Audi TT</h1>
+                <p class="text">2019 seems to be Audi's year, with the 2019 Audi TT seeing strong reliability ratings along with a handful of other 2019 models. According to U.S. News, the Audi TT scores well. Despite the strong 2019 model year, reliability ratings have been lukewarm for the TT.The 2019 variant of the Audi TT stands strong in terms of reliability. Still, it looks like the TT won't get a chance to redeem a history of reliability issues as Audi has stated at the end of the current model cycle that Audi will put the long-time favorite to rest!</p>
+            </ul>
+        </div>
+    </body>
+</html>

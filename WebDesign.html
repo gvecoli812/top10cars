@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Website</title>
+        <link rel="stylesheet" href="WebDesign.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="baby.png">
+    </head>
+    <header>
+        <div class="navbar">
+            <ul>
+                <a href="WebDesign.html">
+                    <button class="navbtn" id="home">Home</button>
+                </a>
+                <a href="audi.html">
+                    <button id="audi" class="navbtn">Audi</button>
+                </a>
+                <a href="bmw.html">
+                    <button class="navbtn" id="bmw">BMW</button>
+                </a>
+                <a href="chrysler.html">
+                    <button class="navbtn" id="chrysler">Chrysler</button>
+                </a>
+                <a href="dodge.html">
+                    <button class="navbtn" id="dodge">Dodge</button>
+                </a>
+                <a href="ford.html">
+                    <button class="navbtn" id="ford">Ford</button>
+                </a>
+                <a href="honda.html">
+                    <button class="navbtn" id="honda">Honda</button>
+                </a>
+                <a href="hyundai.html">
+                    <button class="navbtn" id="hyundai">Hyundai</button>
+                </a>
+                <a href="jaguar.html">
+                    <button class="navbtn" id="jaguar">Jaguar</button>
+                </a>
+                <form role="search" id="form">
+                    <input type="search" id="query" name="q" placeholder="Search Google..." aria-label="Search through site content">
+                      <svg viewBox="0 0 1024 1024"><path class="path1" d="M848.471 928l-263.059-263.059c-48.941 36.706-110.118 55.059-177.412 55.059-171.294 0-312-140.706-312-312s140.706-312 312-312c171.294 0 312 140.706 312 312 0 67.294-24.471 128.471-55.059 177.412l263.059 263.059-79.529 79.529zM189.623 408.078c0 121.364 97.091 218.455 218.455 218.455s218.455-97.091 218.455-218.455c0-121.364-103.159-218.455-218.455-218.455-121.364 0-218.455 97.091-218.455 218.455z"></path></svg>
+                  </form>
+                  <script>
+                    const f = document.getElementById('form');
+                    const q = document.getElementById('query');
+                    const google = 'https://www.google.com/search?q=';
+                    const site = '';
+              
+                    function submitted(event) {
+                      event.preventDefault();
+                      const url = google + site + '+' + q.value;
+                      const win = window.open(url, '_blank');
+                      win.focus();
+                    }
+              
+                    f.addEventListener('submit', submitted);
+                  </script>
+                <a href="snke.html">
+                    <button class="hideme" id="hideme"></button>
+                        <style>
+                            .hideme {
+                                float:right;
+                                position: right;
+                                text-align: right;
+                            }
+                        </style>
+                </a>
+            </ul>
+        </div>
+    </header>
+    <body>
+        <script src="WebDesign.js"></script>
+        <div class="titlebox">
+            <h1>Best Cars for High Schoolers!</h1>
+        </div>
+        <div class="icontainer">
+            <div class="icontainertext">
+                <p>As a student myself, I had trouble finding my first car. I couldn't find cars that were necessarily reliable and suited what I wanted in my car.
+                </p>
+                <p>So I decided to create a page based on the best cars that a student can afford that may suite their wants and still be necessarily reliable! I hope this helps students all around! Note, some of the vehicles will not be the cheapest but still can be bought if you finance the vehicle.</p>
+            </div>
+        </div>
+    </body>
+</html>

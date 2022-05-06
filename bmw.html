@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Website</title>
+        <link rel="stylesheet" href="bmw.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="baby.png">
+    </head>
+    <header>
+        <div class="navbar">
+            <ul>
+                <a href="WebDesign.html">
+                    <button class="navbtn" id="home">Home</button>
+                </a>
+                <a href="audi.html">
+                    <button id="audi" class="navbtn">Audi</button>
+                </a>
+                <a href="bmw.html">
+                    <button class="navbtn" id="contactme">BMW</button>
+                </a>
+                <a href="chrysler.html">
+                    <button class="navbtn" id="chrysler">Chrysler</button>
+                </a>
+                <a href="dodge.html">
+                    <button class="navbtn" id="dodge">Dodge</button>
+                </a>
+                <a href="ford.html">
+                    <button class="navbtn" id="ford">Ford</button>
+                </a>
+                <a href="honda.html">
+                    <button class="navbtn" id="honda">Honda</button>
+                </a>
+                <a href="hyundai.html">
+                    <button class="navbtn" id="hyundai">Hyundai</button>
+                </a>
+                <a href="jaguar.html">
+                    <button class="navbtn" id="jaguar">Jaguar</button>
+                </a>
+                <form role="search" id="form">
+                    <input type="search" id="query" name="q" placeholder="Search Google..." aria-label="Search through site content">
+                      <svg viewBox="0 0 1024 1024"><path class="path1" d="M848.471 928l-263.059-263.059c-48.941 36.706-110.118 55.059-177.412 55.059-171.294 0-312-140.706-312-312s140.706-312 312-312c171.294 0 312 140.706 312 312 0 67.294-24.471 128.471-55.059 177.412l263.059 263.059-79.529 79.529zM189.623 408.078c0 121.364 97.091 218.455 218.455 218.455s218.455-97.091 218.455-218.455c0-121.364-103.159-218.455-218.455-218.455-121.364 0-218.455 97.091-218.455 218.455z"></path></svg>
+                  </form>
+                  <script>
+                    const f = document.getElementById('form');
+                    const q = document.getElementById('query');
+                    const google = 'https://www.google.com/search?q=';
+                    const site = '';
+              
+                    function submitted(event) {
+                      event.preventDefault();
+                      const url = google + site + '+' + q.value;
+                      const win = window.open(url, '_blank');
+                      win.focus();
+                    }
+                    f.addEventListener('submit', submitted);
+                  </script>
+                <a href="snke.html">
+                    <button class="hideme" id="hideme"></button>
+                        <style>
+                            .hideme {
+                                float:right;
+                                position: relative;
+                                text-align: right;
+                                width: 0.1%;
+                                background-color: black;
+                                border-color:white;
+                            }
+                        </style>
+                </a>
+            </ul>
+        </div>
+    </header>
+    <body>
+        <script src="WebDesign.js"></script>
+        <div class="titlebox">
+            <h1>Top 10 BMW's!</h1>
+        </div> 
+        <div class="E83X3">
+            <ul>
+                <h1 class="title">BMW E83 X3</h1>
+                <p class="text">The E83 X3 is the first-generation of the BMW 3 Series that was introduced into the Sports Activity Vehicle market in 2003. BMW made a grand entry into the mid-size SUV market with the E83 X3, which is a strong competitor with premium SUVs such as the Mercedes-Benz GLK-Class.European New Car Assessment Programme (Euro NCAP)—a body that's saddled with the responsibility of providing safety performance assessment for new cars—gave the BMW E83 X3 a four out of five stars rating for adult occupancy and child occupancy. This means, in the event of a crash, the crossover has the necessary technology to protect children and adults.</p>
+            </ul>
+            <img class="img" src="https://static1.hotcarsimages.com/wordpress/wp-content/uploads/2021/11/BMW-E83-X3-1-1.jpg?q=50&fit=crop&w=750&dpr=1.5">
+        </div>
+        <div class="E36M3">
+            <img class="img" src="https://static1.hotcarsimages.com/wordpress/wp-content/uploads/2021/03/Eddie-Mello-E36-BMW-M3-LS-Swap-CARB-HC-Logo.jpg?q=50&fit=crop&w=750&dpr=1.5">
+            <ul>
+                <h1 class="title">BMW E36 M3</h1>
+                <p class="text">In 1992, BMW rolled out the E36 M3 in three body styles: convertible, coupé, and sedan. A great feature of the E36 M3 is its BMW S52 straight-six engine that gives a 321 hp and 3.2-liter displacement. With the impressive power and displacement capabilities, the E36 M3 would be able to cover 60 mph in just 5.5 seconds.To ensure maximum reliability, BMW equipped the E36 M3 with a compound brake system that limited the unsprung masses and also reduced their sensitivity to thermal stress.</p>
+            </ul>
+        </div>
+        <div class="W318i">
+            <ul>
+                <h1 class="title"> 2002 BMW 318i</h1>
+                <p class="text">With a reliability score of four out of five on AA Cars, it's needless to say that the BMW 318i is a reliable entry-level sedan. Its impressive power comes from a 1.5-liter turbocharged three-cylinder to deliver 141 hp.To further prove its reliability, the BMW 318i is one of the most reliable BMW cars to ever hit the road, according to Letsdrivecar.com. But beyond its reliability, the BMW 318i, which was previously known as the E46 from 1998 to 2002, is also your go-to option if you need a sedan that offers loads of modification options.</p>
+            </ul>
+            <img class="img" src="https://static1.hotcarsimages.com/wordpress/wp-content/uploads/2021/02/2021-BMW-318i-4-Shpock.jpg?q=50&fit=crop&w=750&dpr=1.5">
+        </div>
+        <div class="W750i">
+            <img class="img" src="https://static1.hotcarsimages.com/wordpress/wp-content/uploads/2021/11/2008-BMW-750i-1.jpg?q=50&fit=crop&w=750&dpr=1.5">
+            <ul>
+                <h1 class="title">2008 BMW 750i</h1>
+                <p class="text">The BMW 750i is a full-size sedan that has everything going for it in terms of performance, safety, and comfort, so it's not surprising that it got an expert review score of 8.4 out of 10 on TheCarConnection.com. Getting its power from a 4.8-liter, 360 hp V8 engine, the BMW 750i has a smooth, swift, and silent operation that rivals the Mercedes S-Class.Although there's no test data from regulatory agencies such as the Insurance Institute for Highway Safety (IIHS), a maximum five-star rating by 70% of reviewers on Edmunds will give you an idea of how reliable the BMW 750i is exactly.Although there's no test data from regulatory agencies such as the Insurance Institute for Highway Safety (IIHS), a maximum five-star rating by 70% of reviewers on Edmunds will give you an idea of how reliable the BMW 750i is exactly.</p>
+            </ul>
+        </div>
+        <div class="Z4">
+            <ul>
+                <h1 class="title">2012 BMW Z4</h1>
+                <p class="text">The BMW Z4 is a luxury sports convertible that offers comfort, all-weather functionality, and safety. Sporting a turbocharged 2.0-liter four-cylinder that can deliver 240 hp and 265 lb-ft of torque to give drivers a surge of testosterone, while still managing to be relatively silent.With critics' rating and performance rating of 8.3 out of 10, the BMW Z4 can easily go head-to-head with some of the most dependable sports cars such as the 2012 Audi TT.</p>
+            </ul>
+            <img class="img" src="https://static1.hotcarsimages.com/wordpress/wp-content/uploads/2021/11/2012-BMW-Z4-3.jpg?q=50&fit=crop&w=750&dpr=1.5">
+        </div>
+        <div class="M4">
+            <img class="img" src="https://static1.hotcarsimages.com/wordpress/wp-content/uploads/2021/11/2016-BMW-M4-1.jpg?q=50&fit=crop&w=750&dpr=1.5">
+            <ul>
+                <h1 class="title">2016 MBW M4</h1>
+                <p class="text">With phrases from reviewers such as "no regrets," "best car ever," and "superb engine," you can rest assured that the reliability, performance, and handling of the BMW M4 cannot be disputed. In fact, 84% of the reviewers on Edmunds gave the sports version of the BMW 4 Series five stars.Beyond the formidable power of the 3.0-liter twin-turbocharged V6 that produces 425 hp, the minimal maintenance requirements of the BMW M4 make it a fierce competitor with the Audi RS 5.</p>
+            </ul>
+        </div>
+        <div class="W325i">
+            <ul>
+                <h1 class="title">2005 BMW 325i</h1>
+                <p class="text">When a car offers great performance, comfort, design, and reliability, you know it's worth every penny it goes for. Whether you are driving a brand-new or used BMW 325i, you will definitely be impressed by its features and quality. This is why over 88% of drivers on Cars.com say that they are willing to recommend the BMW 325i to a friend.Also, about 83% of reviewers on Edmunds gave the BMW 325i a maximum five-star rating, driving home the point that anyone can depend on the sports sedan, regardless of their level of driving experience.</p>
+            </ul>
+            <img class="img" src="https://static1.hotcarsimages.com/wordpress/wp-content/uploads/2021/11/2005-BMW-325i-4.jpeg?q=50&fit=crop&w=750&dpr=1.5">
+        </div>
+        <div class="F40">
+            <img class="img" src="https://static1.hotcarsimages.com/wordpress/wp-content/uploads/2021/11/2019-BMW-F40-1.jpg?q=50&fit=crop&w=750&dpr=1.5">
+            <ul>
+                <h1 class="title">2019 BMW F40</h1>
+                <p class="text">When it comes to reliability, it's better to opt for basic cars such as the BMW F40 than sophisticated, high-end ones that are more likely to require scheduled/unscheduled repairs. Not only does the 2019 BMW 1 Series compact hatchback require minimal maintenance, but it also gets a 5-Star overall rating on the Euro NCAP test, making it well safe for children, adults, and pedestrians.Thanks to the practicality and reliability of the F40, BMW still retains its trophy as the producer of the best hatchbacks in the automotive world, even in the face of fierce competition from some of the best Mercedes A-Class models out there.</p>
+            </ul>
+        </div>
+        <div class="i3">
+            <ul>
+                <h1 class="title">2018 BMW i3</h1>
+                <p class="text">The i3 is the first mass-produced zero-emission electric vehicle manufactured by BMW. The high-roof hatchback has been free of complaints, which is quite surprising for electric and gas-powered vehicles. So, if you are big on saving the environment, but need to have fun while doing it, the BMW i3 is your most reliable option.After robust testing by expert reviewers on Carwow, the BMW i3 got an overall score of 8 out of 10, taking into consideration its performance, reliability, safety and ease-of-handling.</p>
+            </ul>
+            <img class="img" src="https://static1.hotcarsimages.com/wordpress/wp-content/uploads/2021/06/BMW-i3-2014-Via-Autoblog.jpeg?q=50&fit=crop&w=750&dpr=1.5">
+        </div>
+        <div class="E90">
+            <img class="img" src="https://static1.hotcarsimages.com/wordpress/wp-content/uploads/2021/11/2006-BMW-E90-330i-2.jpg?q=50&fit=crop&w=750&dpr=1.5">
+            <ul>
+                <h1 class="title">2006 BMW E90 330i</h1>
+                <p class="text">With the E90 330i, BMW set the luxury car benchmark Acura and Volvo dream of reaching when it comes to the development of sport sedans. If you need a sedan that offers the perfect blend of practicality and performance without compromising stability and comfort, the BMW E90 330i is your best bet.The BMW E90 330i is not just the best-selling luxury car in the 3 Series, but it also sold over 336,232 units, making it one of the highest-selling luxury cars in the United States. The BMW 3 Series was even awarded the Top Safety Pick in the mid-size luxury car category in 2006. This is an award that shines the spotlight on the safest vehicle choices in terms of driver injury measures, driver restraint features.</p>
+            </ul>
+        </div>
+    </body>
+</html>
